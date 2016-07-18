@@ -13,8 +13,7 @@
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href="css/global.css" rel="stylesheet" media="screen">
-	<script src="js/slide.js"></script>
+    <link href="css/global.css" rel="stylesheet" media="screen">	
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -29,8 +28,8 @@
     <link rel="apple-touch-icon-precomposed" href="img/logo72.jpg">
     <link rel="shortcut icon" href="img/logo36.jpg"
   </head>
-  <body onload = 'initsunny()'>
-      <div id="btn_top" class="btn"><a href="#">Back to top</a></div>
+  <body onload = 'initsunny()'>    
+  
     <header>
       <div class="container"> 
 			<div id="" class="pull-left"><a href="index.html"><img id = "head_logo" src="img/logo72.jpg"></img></a></div>
@@ -52,7 +51,7 @@
         <div class="navbar">
           <div class="navbar-inner">
             <div class = "header-logo">
-              <a href="index.html"><img src="img/logo_small.jpg"></img></a>
+              <a href="index.html"><img src="img/logo36.jpg" id = "mobile_logo"></img></a>
               <!--<div style="font-size: 20px; line-height:40px" class="title">Sunny Auto Service</div>-->
             </div>
             <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
@@ -67,7 +66,7 @@
 				<li class="~active"><a href="index.html">Home</a></li> 
 				<li class="~active"><a href="index.html#section-about-us">About Us</a></li>	
 				
-				<!--<li class="dropdown">
+				<li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Service & Pricing<b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li>
@@ -97,8 +96,8 @@
                       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                       Diagnostics Service</a></li>
                   </ul>
-                </li>-->
-				<li class="~active"><a href="index.html#section-services">Service & Pricing</a></li>
+                </li>
+				<!--<li class="~active"><a href="index.html#section-services">Service & Pricing</a></li>-->
                 <li class="~active"><a href="index.html#section-contact-us">Contact Us</a></li>           
               </ul>
             </div><!--/.nav-collapse -->
@@ -281,13 +280,15 @@
       </div>           
       </div> 		
     </div> <!-- /END .contents --> 
-    <footer>
+    <footer> 
+	<div id="btn_top" class = "pull-right"><a href="#">Back to top</a></div>
       <div style = "text-align:center;">        
-        <p>Sunny Auto Service<br>
+        <p>Sunny Auto Service<br>  
 		2325 1st Ave N, Saskatoon<br>
 		(306)952-3399
 		</p>        
-      </div>	
+      </div>
+    	  
     </footer>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -295,6 +296,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDV5I4vdmmzzk6jW60x8SMYEoyGBToG_BU&callback=initMap" async defer></script>    
     <script src="js/map.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/slide.js"></script>
  
   </body>
 </html>

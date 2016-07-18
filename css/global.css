@@ -216,20 +216,22 @@
       height: 15px;
       opacity: .5;
     }
+	
     #btn_top a {
-      color: black;
+      color: #FB4848;
       text-decoration: none;
     }
     #btn_top {
       display: none;
       padding 5px;
-      opacity: .5;
+      /*opacity: 0.8;*/
       box-shadow: 2px 2px 3px black;
       width: 100px;
       right: 5px;
       bottom: 5px;
       position: fixed;
       z-index: 2;
+	  text-align:center;
     }
     #btn_top:hover {
       opacity: 1;
@@ -325,7 +327,7 @@
     }
 
     .carousel-control {
-      height: 40px;
+      height: 60px;
       margin-top: 0;
       font-size: 40px;
       text-shadow: 0 1px 1px rgba(0,0,0,.4);
@@ -463,25 +465,7 @@
       width: 70%;
       margin: auto;
   } 
-  
-    #btn_top a {
-      color: black;
-      text-decoration: none;
-    }
-    #btn_top {
-      display: none;
-      padding 5px;
-      opacity: .5;
-      box-shadow: 2px 2px 3px black;
-      width: 100px;
-      right: 5px;
-      bottom: 5px;
-      position: fixed;
-      z-index: 15;
-    }
-    #btn_top:hover {
-      opacity: 1;
-    }
+   
   
 	.full_image
 	{
@@ -494,6 +478,10 @@
 	@media (max-width: 440px) {
       .header-logo img {
         width: 150px;
+      }
+	  .mobile_logo{
+        width: 36px;
+		height: 36px;
       }
 
       .header-logo .title {
