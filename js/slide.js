@@ -36,6 +36,7 @@ window.onresize = function(event) {
 		$('#div_carousel').css("height", $('#s1_full').height());
 		$('#div_inner').css("height", $('#s1_full').height());
 	}
+	location.reload(true);
 	
 };
 
@@ -47,4 +48,5 @@ $(window).on("orientationchange",function(){
 		$('#div_carousel').css("height", $('#s1_full').height());
 		$('#div_inner').css("height", $('#s1_full').height());
 	}
+	location.reload(true);
 });	
