@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title>Sunny Auto Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sunny Auto Service">
+    <meta name="author" content="Sunny Auto Service">
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href="css/global.css" rel="stylesheet" media="screen">
+	<script src="js/slide.js"></script>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+	
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/logo72.jpg">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/logo72.jpg">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/logo72.jpg">
+    <link rel="apple-touch-icon-precomposed" href="img/logo72.jpg">
+    <link rel="shortcut icon" href="img/logo36.jpg"
+  </head>
+  <body onload = 'initsunny()'>
+    <header>
+      <div class="container"> 
+			<div id="" class="pull-left"><a href="index.html"><img id = "head_logo" src="img/logo72.jpg"></img></a></div>
+			<!--<div id="title">Sunny Auto Service</div>-->
+		    <div class="pull-right" id="headCall">						
+				<p><img id="imageCall" src="img/header-phone.png"><b>Call Now</b>&nbsp&nbsp(306) 952-3399</p>									 
+			</div>
+			<!--<div class="span4"  id="">	
+				<p><img id="imageTime" src="img/header-timer.png">
+				Mon - Fri 9:00 - 18:00 &nbsp&nbsp&nbsp Sat - Sat: 10:00 - 17:00</p>					
+			</div>-->
+      </div>
+    </header>
+    
+    <!-- NAVBAR ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class = "header-logo">
+              <a href="index.html"><img src="img/logo_small.jpg"></img></a>
+              <!--<div style="font-size: 20px; line-height:40px" class="title">Sunny Auto Service</div>-->
+            </div>
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">				
+				<li class="~active"><a href="index.html">Home</a></li> 
+				<li class="~active"><a href="index.html#section-about-us">About Us</a></li>	
+				<li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Service & Pricing<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="index.html#service-engineoil">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        Engine Oil Change
+                      </a>
+                    </li>
+                    <li><a href="index.html#service-transmission">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        Transmission Flush
+                    </a></li>
+                    <li><a href="index.html#service-brake">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      Brake Service</a></li>
+					  <li>
+                      <a href="index.html#service-radiator">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        Radiator Flush
+                      </a>
+                    </li>
+                    <li><a href="index.html#service-tire">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        Tire Service
+                    </a></li>
+                    <li><a href="index.html#service-Diagnostics">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      Diagnostics Service</a></li>
+                  </ul>
+                </li>
+                <li class="~active"><a href="index.html#section-contact-us">Contact Us</a></li>           
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+    <!-- Carousel
+    ================================================== -->
+    <div class="container" id = "div_container">
+      <div id="myCarousel" class="carousel slide" id = "div_carousel">
+		<div class="carousel-inner" id = "div_inner">
+          
+          <!--<img class="carousel-mask" src="img/carousel-mask.png">-->
+          <div class="item active" id = "" >
+             <img src="img/slides/slide-01.jpg" alt="" id="s1_full">  
+			 <!--<img src="img/slides/slide-03-small.jpg" alt="" id="s1_mobile" class = "mobile_image">-->
+			           
+          </div>
+          <div class="item"id = "div_s2">
+            <img id = "s1" src="img/slides/slide-02.jpg" id="s2_full"> 
+			
+            
+          </div>
+          <div class="item" id = "div_s3">
+            <img src="img/slides/slide-03.jpg" alt=""id="s3_full"> 
+			
+            
+          </div>
+          <div class="item" id = "div_s4">
+            <img src="img/slides/slide-04.jpg" id="s4_full">  
+				
+          </div>          
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev" id = "leftControl">&lsaquo;</a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next" id = "rightControl">&rsaquo;</a>
+      </div><!-- /.carousel -->
+      
+    </div>
+        <div class="contents">		
+		<div class="container about-us">
+			<h2 id="section-about-us">About Us</h2>
+			<img src="img/about.jpg">
+			<p>At Sunny Auto Service we provide a wide variety of services including computer diagnostics, tire services, 
+			mechanical repairs, electrical repairs, windshield and glass repairs, and other type of services. 
+			All at affordable pricing, our hourly rate starts at $80.00 per hour. Our service is fast and professional. 
+			We can also pick you up and drop you back to your place.  We provide English, Mandarin and Cantonese services. 
+			We also recyle all used tires. </p>
+			<p>Serving you all our heart and help you and your family drive a safe and efficient vehicle is our mission. </p>				
+			<p>Our prices are based on top quality parts, professional experience.</p>
+			<p>We will always be honest to recommend services or parts your vehicle need.</p>
+							
+		</div> <!-- / container about-us -->
+		<div class="container services">
+		<h2 id="section-services">Service & Pricing</h2>
+			<div class="row">
+				<div class="span4" id="service-engineoil">
+					
+					<h3>Engine Oil Change</h3>
+					<p>-Non-Synthenic: from $45.00++</p>
+					<p>-Synthenic Oil: from $75.00++</p>
+					<p>Engine oil change prices are set for 5 Litre engine oil capacity. Engines with oil capacity above 5 litres will
+						be charged additional of $5.00 per litre for non-nynthenic oil and $10.00 per litre for snynthenic oil. Oil filter cost not inclued. 
+					</p>					
+				</div><!-- /.span4 -->
+				
+				<div class="span4"  id="service-transmission">						
+					<h3>Transmission Flush</h3>
+					<p>-Transmission Flush: from $95.00++</p>
+					<p>-Differential Flush: from $55.00++</p>
+					<p>Standard OEM spec will be used, additional cost might apply for gasket replacement if needed. Price varies on model of vehicle.</p>						
+					<p>Base price for 2 wheels drive vehicle with 1 axle differential. 4 wheels drive or vehicle with tansfer base will cost additinal.</p>
+				 </div><!-- /.span4 -->
+				<div class="span4" id="service-brake">						
+					<h3>Brake Service</h3>
+					<p>Brake Pads/Shoes/Rotors</p>
+					<p>Price varies per vehicle; Please inquire for price.</p>
+				</div><!-- /.span4 -->		 
+				 
+			</div><!-- /.row -->
+			<div class="row">				
+				<div class="span4"  id="service-radiator">						
+					<h3>Radiator Flush</h3>
+					<p>-Standard Radiator Flush: from $100.00++</p>
+					<p>-Standard Radiator Flush: from $100.00++</p>
+					<p>Pricing is based on radiator with capacity of 4 litres; additial charges might apply at $3.00 per litre extra. 
+					   If special type of anti-freeze is required, additional chages will apply.
+					</p>
+				</div><!-- /.span4 -->
+				
+				<div class="span4"  id="service-tire">
+					<h3>Tire Service</h3>
+					<p>-Tire Change: From $25.00</p>
+					<p>-Wheel Balance: From $15.00</p>
+					<p>-Tire Leak Repair: From $15.00</p>
+					<p>Extra charge might apply for oversized tires and low profile tires. Price is based on basic hole repaire; additionla charges might apply for additional repair.</p>
+				</div><!-- /.span4 -->
+				<div class="span4"  id="service-Diagnostics">						
+					<h3>Diagnostics Service</h3>
+					<p>Engine Code/Electrical Diagnostics: from $50.00</p>						
+					<p>DTC/TC, Dash Light, Other: from $80.00</p>
+					<p>Airbag/Reset: from $80.00</p>
+					<p>Price is based on Diagnostics service. If repair requires addtional parts, additial prices might apply.</p>
+				</div><!-- /.span4 -->
+			</div><!-- /.row -->
+			 
+		</div> <!-- / container service & pricing -->			
+		
+		<div class="container contact-us">        
+				<h2 id="section-contact-us">Contact Us</h2>				
+		
+				<div class="row">			
+					<div class="span4"  id="">
+						<div class="contact-card">
+						  <img src="img/logo_small.jpg"></img>
+						  <div class="person">
+							<span class="name">Jason Zheng</span>
+							<span class="title">owner</span>
+						  </div>
+						  <div class="address">
+						    <div>
+							  <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+							  <span><a href="tel:1-306-952-3399" style = "color:#FB4848; font-size: 16px;">(306)952-3399</a></span>
+							</div>
+							<div>
+							  <span class="glyphicon glyphicon-home"></span>
+							  <span style = "color:#FB4848; font-size: 16px;">2325 1st Ave N <br>Saskatoon, SK</span>
+							</div>							
+							<div>
+							  <span class="glyphicon glyphicon-envelope"></span>
+							  <span><a href="mailto:sunnyautoservice@gmail.com">sunnyautoservice@gmail.com</a></span>
+							</div>
+							
+							<div>
+							  <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+							  <span><a href="//www.sunnyauto66.com/">www.sunnyauto66.com</a></span>
+							</div>
+						  </div>
+						</div>
+						<p class="lead">Reach us on social media:
+							<a href="http://mysask411.com/saskatoon/auto-repairing/sunny-auto-service/931225" target="_blank"><span class="social-media google"></span></a>
+							<a href="https://www.facebook.com/Sunny-Auto-Service-564327573771893/" target="_blank"><span class="social-media facebook"></span></a>
+							<!--<a href=""><span class="social-media weixin"></span></a>-->
+						</p>
+					</div><!-- /.span4 -->
+					<div class= "span4" id = "blank"></div>
+					<div class= "span4" id = "">
+						<table>
+							<tr><th align="right" ><h4>Woring</h4></th><th align="center"><h4>Time</h4></th></tr>
+							<tr><td>Monday:</td><td>9:00AM - 6:00PM</td></tr>
+							<tr><td>Tuesday: </td><td>9:00AM - 6:00PM</td></tr> 
+							<tr><td>Wednesday:</td><td>9:00AM - 6:00PM</td></tr> 
+							<tr><td>Thursday:</td><td>9:00AM - 6:00PM</td></tr> 
+							<tr><td>Friday: </td><td>9:00AM - 6:00PM</td></tr> 
+							<tr><td>Saturday:</td><td>10:00AM - 5:00PM</td></tr>
+						</table>
+					</div><!-- /.span4 -->
+				    
+					<!--<div class= "span4" id = "messageBox">	
+						<form method="post" name="contactform" action="contact-form-handler.php">
+							<H4>Your Message:</H4>
+							<table align="center">
+								<tr><td>Name:</td><td><input type="text"></td></tr> 
+								<tr><td>Email:</td><td><input type="text" name="email"></td></tr> 
+								<tr><td>Message:</td><td><textarea name="message"></textarea></td></tr> 
+								<tr><td>&nbsp&nbsp</td></tr>
+								<tr><td></td><td><input type="submit" value="Submit"></td></tr> 
+							</table>
+						</form>
+					</div>-->
+					
+				<!--</div> /.row -->
+        
+           
+			<div id="contact-map"></div>
+      </div>           
+      </div> 		
+    </div> <!-- /END .contents --> 
+    <footer>
+      <div style = "text-align:center;">        
+        <p>Sunny Auto Service<br>
+		2325 1st Ave N, Saskatoon<br>
+		(306)952-3399
+		</p>        
+      </div>	
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+  </body>
+</html>
