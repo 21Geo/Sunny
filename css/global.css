@@ -477,7 +477,7 @@
       right: 5px;
       bottom: 5px;
       position: fixed;
-      z-index: 2;
+      z-index: 15;
     }
     #btn_top:hover {
       opacity: 1;
