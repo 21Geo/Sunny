@@ -228,7 +228,7 @@
       box-shadow: 2px 2px 3px black;
       width: 100px;
       right: 5px;
-      bottom: 5px;
+      bottom: 15px;
       position: fixed;
       z-index: 2;
 	  text-align:center;
@@ -476,12 +476,12 @@
 	}
  
 	@media (max-width: 440px) {
-      .header-logo img {
+      /*.header-logo img {
         width: 150px;
-      }
+      }*/
 	  .mobile_logo{
-        width: 36px;
-		height: 36px;
+        width: 150px;
+		height: 34px;
       }
 
       .header-logo .title {
